@@ -1,5 +1,8 @@
 # kemerovo-vue
 
+## Check demo project 
+
+https://kemerovo-vue.vercel.app/ 
 ## Project setup
 ```
 yarn install
