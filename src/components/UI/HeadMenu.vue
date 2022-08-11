@@ -100,7 +100,6 @@ export default {};
   align-items: center
   justify-content: center
 a
-  height: 100%
   text-decoration: none
 li
   position: relative
@@ -116,9 +115,7 @@ li
   background: green
 .menu__list>li:hover .sabmenu__list
   display: block
-  height: 100%
 .menu__link
-
   padding: 0
   font-weight: 300
   font-size: 20px
@@ -130,7 +127,7 @@ li
   position: absolute
   left: 0
   top: 12px
-  padding: 28px 0 0 0
+  padding: 20px 0 0 0
   width: 100%
   border-radius: 0px 0px 2px 2px
 .sabmenu__list>li
@@ -170,12 +167,4 @@ li
     color: #484848
   .menu__list>li
     padding: 8px 30px 8px 0
-@media screen and (max-width: 1110px )
-  .menu__link
-    padding: 0
-    font-weight: 300
-    font-size: 12px
-    line-height: 18px
-    letter-spacing: 0.02em
-    color: #E7E7E7
 </style>

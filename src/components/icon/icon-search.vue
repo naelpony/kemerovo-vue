@@ -45,7 +45,5 @@ export default {
 
 <style lang="sass" scoped>
 .iconsvg
-	fill: white
-	&:hover
-		fill: blue
+	fill: #484848
 </style>

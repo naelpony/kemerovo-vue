@@ -1,11 +1,70 @@
 
-header
-
 body
-	background-color: #555
+	height: 100%
+	background-color: #FFFFFF
 	font-family: 'Rubik'
 	font-weight: 400
+	font-size: 20px !important
 a, li, ul
 	list-style: none
 	outline: none
 	text-decoration: none
+.header
+	min-height: 1000px
+	display: flex
+	flex-direction: column
+.main
+	flex: 1 1 auto
+.black
+	max-width: 1410px
+	margin: 0 auto
+	padding: 20px 0 0 0
+.pc
+	display: block
+.phone
+	display: none
+.bm-menu
+	background-color: white
+.bm-burger-button
+	position: relative
+	left: 0
+	right: 0
+	margin: 0 10px 0 0
+.bm-burger-bars
+	background: rgba(255, 255, 255, 1)
+	
+.line-style
+	height: 7%
+	border-radius: 25%
+@media screen and (max-width: 1410px )
+	.header
+		min-height: 700px
+	.black		
+		max-width: 1000px
+		margin: 0 15px
+@media screen and (max-width: 810px )
+	
+		
+	.pc
+		display: none
+	.phone
+		display: block
+		position: fixed
+		z-index: 20
+		top: 0
+		left: 0
+		width: 100%
+
+		background: rgba(160, 47, 50, 0.8)
+	.phone-c
+		display: flex
+		justify-content: space-between
+	.card-phone
+		display: none
+	.header
+		min-height: 550px
+	.main
+@media screen and (max-width: 425px )
+	.bm-burger-button
+		position: absolute
+		left: 85%
