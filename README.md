@@ -2,7 +2,7 @@
 
 ## Check demo project 
 ```
-https://kemerovo-vue.vercel.app/ 
+See live [DEMO](https://kemerovo-vue.vercel.app/)
 ```
 ## Project setup
 ```
